@@ -1,0 +1,73 @@
+.banner-wrap { background: #0C1116 url("/assets/images/landing-banner.png"); background-size: cover; padding-bottom: 60px; }
+.rowWrap { position: relative; }
+.rowWrap:not(:first-child) { padding-top: 0.313vw; }
+.BannerHeadcount { height: calc(100% - 6.042vw) }
+
+.companiesHover { overflow: hidden; }
+.companiesHover .hoverText1, .companiesHover .hoverText2, .hoverViewBox .hoverText1, .hoverViewBox .hoverText2, .hoverViewBox .iconHover [class*="alb-navigate"], .hoverViewBox .iconHover [class*="alb-lamp"], .companiesHover .hoverImg, .BannerHeadcount .hoverDiv1, .BannerHeadcount .hoverDiv2, .trendAnalysis .hoverdiv1, .BannerHeadcount .hoverDiv3, .BannerHeadcount .chartHover, .trendAnalysis .chartHover, .trendAnalysis .hoverDiv1, .BannerHeadcount .hoverDiv1None { transition:all 0.6s ease-in-out; }
+.companiesHover .hoverText2 { transform: translateX(3.646vw); min-width: max-content; position: absolute; right: 0; }
+.companiesHover:hover .hoverText2 { transform: translateX(0); }
+.companiesHover:hover .hoverText1 { transform: translateX(-8.854vw); }
+.companiesHover:hover .hoverImg { transform: translateX(-8.854vw); }
+.companiesHover.Groupcompanies:hover .hoverImg { transform: translateX(-8.854vw); }
+.companiesHover.Groupcompanies:hover .hoverImg.hoverImgCustm { transform: translateX(-7.813vw); }
+
+
+.bannerLogoWrap .bannerLogo { overflow: hidden; max-width: 7.552vw; transition:all 0.3s ease-in-out; min-height: 3.542vw; display: flex; align-items: center; }
+.bannerLogoWrap .bannerLogo img { min-width: 13.021vw; transition:all 0.5s ease-in-out; }
+.bannerLogoWrap:hover .bannerLogo img { min-width: 100%; transition:all 0.5s ease-in-out; }
+
+.bannerLogoWrap .bannerLogoGroup { max-width: 8.854vw; transition:all 0.3s ease-in-out; min-height: 4.531vw; display: flex; align-items: center; justify-content: center; }
+.bannerLogoWrap .bannerLogoGroup img { min-width: 8.854vw; transition:all 0.5s ease-in-out; }
+.bannerLogoWrap:hover .bannerLogoGroup img { min-width: 11.458vw; transition:all 0.5s ease-in-out; }
+
+
+.hoverViewBox:hover .hoverText1 { margin-top: -0.938vw; }
+.hoverViewBox .hoverText2 { margin-bottom: -0.938vw; }
+.hoverViewBox:hover .hoverText2 { margin-bottom: 0; }
+.hoverViewBox:hover .iconHover [class*="alb-navigate"] { font-size: 0.938vw; }
+.hoverViewBox .iconHover [class*="alb-lamp"] { font-size: 0; }
+.hoverViewBox:hover .iconHover [class*="alb-lamp"] { font-size: 1.667vw; }
+
+.BannerHeadcount .hoverDiv2 { transform: translateX(18.750vw); }
+.BannerHeadcount:hover .hoverDiv1 { transform: translateX(-20.313vw); }
+.BannerHeadcount:hover .hoverDiv2 { transform: translateX(0); }
+
+.BannerHeadcount .hoverDiv3 { transform: translateY(8.333vw); }
+.BannerHeadcount:hover .hoverDiv3 { transform: translateY(0); }
+
+.BannerHeadcount .chartHover { transform: translateY(0); }
+.BannerHeadcount:hover .chartHover { transform: translateY(-10.417vw); }
+.BannerHeadcount:hover .hoverDiv1None { opacity: 0; }
+
+.trendAnalysis .hoverdiv1 { transform: translateY(10.938vw); }
+.trendAnalysis:hover .hoverdiv1 { transform: translateY(0); }
+
+.trendAnalysis:hover .chartHover { transform: translateY(-13.021vw); }
+.trendAnalysis .hoverDiv1 { transform: translateY(10.417vw); }
+.trendAnalysis:hover .hoverDiv1 { transform: translateY(0); }
+
+
+.landingBanner { background: #0C1116 url("/assets/images/leading.png") no-repeat; background-size: cover; height: 100vh; }
+.gradient-one { background: linear-gradient(116deg, #0099A8 8.89%, rgba(0, 153, 168, 0.00) 123.79%); }
+.gradient-two { background: linear-gradient(107deg, #4FA593 18.83%, rgba(79, 165, 147, 0.00) 111.5%); }
+.gradient-three { background: linear-gradient(143deg, #CE5A28 6.02%, rgba(206, 90, 40, 0.00) 132.74%); }
+
+.Groupcompanies .rowWrap .hoverImg  { padding-top: 0.521vw; padding-bottom: 0.521vw; }
+
+.albathagroup_bg { background: #0C1116 url("/assets/images/albathagroup_bg.png"); background-size: 100%; background-repeat: no-repeat; padding-bottom: 3.125vw; }
+
+
+
+
+  @media only screen and (max-width: 1280px) {
+    .rowWrap:not(:first-child) { padding-top: 6px; }
+  }
+
+  @media only screen and (max-width: 991px) {
+    
+  }
+
+  @media only screen and (max-width: 575px) {
+
+  }

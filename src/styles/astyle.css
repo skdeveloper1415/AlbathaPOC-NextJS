@@ -1,0 +1,297 @@
+.custInputText .p-inputtext {
+  padding: 0.6rem 0.9rem;
+  font-weight: 600;
+  font-size: 0.833vw;
+
+}
+.custInputText .p-dropdown .p-dropdown-label.p-placeholder {
+  font-size: 0.833vw;
+}
+.custInputText .p-dropdown-panel .p-dropdown-items .p-dropdown-item  {
+  font-size: 0.833vw !important;
+}
+.custom-redio .p-radiobutton .p-radiobutton-box
+{
+    border: 0.5px solid #BECDE3;
+    background: #F5F6F7;
+    width: 18px;
+    height: 18px;
+}
+.custom-radio .p-radiobutton 
+{
+    width: 16px;
+    height: 16px;
+}
+.custom-radio .p-radiobutton .p-radiobutton-box.p-highlight
+{
+    border-color: #4BA5B7;
+    background: #4BA5B7;
+}
+.custom-radio .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover
+{
+    border-color: #4BA5B7;
+    background: #4BA5B7;
+}
+.custom-radio .p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus{
+    outline-offset: 0;
+    box-shadow: none;
+}
+.custom-radio .p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
+    width: 10px;
+    height: 10px;
+}
+.custom-radio .p-radiobutton .p-radiobutton-box{
+    width: 16px;
+    height: 16px;
+}
+.ReportTable.p-datatable .pi-filter:before {
+    font-family: 'albatha' !important;
+    content: "\e915";
+    background-color: #4B586E;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 8px;
+    border-color: #1d2223;
+  padding: 0.25rem 0.25rem;
+  border-radius: 50px;
+top: 0;
+position: relative;
+}
+.p-component {
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Data Table start */
+.custTable .p-datatable-tbody .p-checkbox.p-component {
+    width: 0.938vw;
+    height: 0.938vw;
+}
+.custTable.p-datatable .p-datatable-thead>tr>th .p-column-filter-menu-button {
+    width: 0.833vw;
+    height: 0.833vw;
+    border-radius: 0;
+}
+.custTable.p-datatable .p-sortable-column .p-column-title{
+    padding-right: 15px;
+}
+.custTable.p-datatable .p-sortable-column .p-column-title,.custTable .p-datatable .p-sortable-column .p-sortable-column-icon, .p-datatable .p-sortable-column .p-sortable-column-badge{
+    font-weight: 500;
+}
+.custTable.p-datatable .p-datatable-thead > tr > th{
+    font-weight: 500;
+}
+.custTable.p-datatable .p-datatable-tbody>tr>td {
+    color: #424242;
+    font-size: 0.833vw;
+    font-weight: 400;
+    padding: 0.417vw 0.342vw;
+    border: 1px solid #F2EEEE;
+}
+.custTable.p-datatable.p-datatable-selectable .p-datatable-tbody > tr.p-selectable-row:not(.p-highlight):not(.p-datatable-emptymessage):hover {
+    background: #F0E9EA;
+    color: #424242;
+}
+.custTable.p-datatable .pi-filter-icon.pi-filter, .custTable.p-datatable .p-sortable-column-icon.pi-sort-alt {
+    color: #424242;    
+    font-size: 0.729vw;
+    font-weight: 500;
+}
+.custTable.p-datatable .p-sortable-column-icon {
+    /* position: absolute;
+    right: 0; */
+    height: 10px;
+    width: 10px;
+}
+.expanderTable.p-datatable .p-datatable-tbody>tr:nth-child(odd) {
+    background: #F5F6F8;
+}
+.custTable.p-datatable .p-datatable-thead>tr>th {
+    border-bottom: 1px solid #F2EEEE;
+    background: #F5F6F7;
+    color: #262626;
+    font-weight: 600;
+    font-size: 0.833vw;
+    padding: 0.625vw 1.042vw;
+}
+.custTable.p-datatable .p-sortable-column:not(.p-highlight):not(.p-sortable-disabled):hover {
+    background: #F0E9EA;
+    color: #424242;
+}
+.custTable.p-datatable .p-column-header-content {
+    width: 100%;
+    justify-content: normal;
+    position: relative;
+}
+/* datatable Plus Icon*/
+.datatablePlusIcon .pi-chevron-right:before {
+    font-family: 'albatha' !important;
+    content: "\e916";
+    font-size: 1.042vw;
+    color: #9CA1AB;
+}
+.datatablePlusIcon .pi-chevron-down:before {
+    font-family: 'albatha' !important;
+    content: "\e913";
+    font-size: 1.042vw;
+    color: #DD7539;
+
+}
+.custTable .p-datatable-tbody>tr>td{
+    padding: 0.2rem 0.3rem;
+}
+@media only screen and (max-width: 768px) {
+    .p-dialog-content {
+      width: 200%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .p-dialog-content {
+        width: 396px;
+      height: 215px;
+    }
+  }
+  .custmDialog.p-dialog {width: 20vw;  height: 215px;position: relative;right: 60px;}
+  @media only screen and (max-width: 575px) {
+    .custmDialog.p-dialog {
+        width: 396px;
+      
+        flex-direction: row;
+    }
+  }
+  .zoom-effect-container{
+    background-color: #2D505D;
+  }
+  .content{
+    background-color: #1d2223;
+    
+  }
+  .ExpanderHeader .p-datatable-wrapper .p-datatable-table .p-datatable-thead{
+    display: none;
+  }
+  .p-column-filter-overlay-menu .p-column-filter-operator {
+    display: none;
+  }
+.p-column-filter-overlay-menu .p-column-filter-constraint:last-child{
+    display: none;
+  }
+  .p-column-filter-overlay-menu .p-column-filter-add-rule{
+    display: none;
+  }
+  .p-column-filter-overlay-menu .p-column-filter-buttonbar{
+    display: none;
+  }
+  .universe-box{
+    background-color: rgba(104, 104, 104,0.11);
+  }
+  .small-btn{
+    background-color: #2F6070;
+  }
+  .small-box{
+    background-color: rgba(255,255,255,0.05);
+
+  }
+  .green-gradient{
+    background-color:#2F6070;
+  }
+  .custInput .p-input-icon-right > .p-inputtext{
+    background-color: rgba(255,255,255,0.05);
+  }
+  .custInput .p-inputtext{
+    padding: 0.5rem 0.8rem;
+    border-radius: 66px;
+    color: #FFF;
+    opacity: 0.5;
+    font-size: 14px;
+  }
+  .accordion-custom .p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link {
+    background: rgba(255,255,255,0.05);
+    color: #FFF;
+}
+.accordion-custom .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link{
+    background: rgba(255,255,255,0.05);
+    color: #FFF;
+}
+
+.accordion-custom .p-accordion .p-accordion-content {
+  background: rgba(255,255,255,0.05);
+  color: #FFF;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.accordion-custom .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link{
+  background: rgba(255,255,255,0.05);
+  color: #FFF;
+  border: 1px solid rgba(255,255,255,0.05);
+
+}
+.accordion-custom .p-accordion .p-accordion-header .p-accordion-header-link{
+  background: rgba(255,255,255,0.05);
+  color: #FFF;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.accordion-custom .pi-chevron-down:before{
+  font-family: 'albatha';
+  content: "\e908" !important;
+  background-color: #2F6070;
+  color: #FFF;
+  font-size: 5px;
+  padding: 0.35rem 0.25rem;
+  border-radius: 50px;
+}
+.accordion-custom .pi-chevron-right:before{
+  font-family: 'albatha';
+  content: "\e904" !important;
+  background-color: #E1E1E1;
+  font-size: 5px;
+  padding: 0.35rem 0.25rem;
+  border-radius: 50px;
+  color: #181b21;
+
+}
+.accordion-custom .p-accordion .p-accordion-header:not(.p-disabled) .p-accordion-header-link:focus{
+  box-shadow: none;
+}
+.ReportTab .react-tabs__tab{
+  border: none;
+  padding: none;
+}
+.expanderTable .p-datatable .p-datatable-tbody > tr > td{
+  border: 0px solid #E5E7EB;
+}
+.custInput .p-inputtext:enabled:hover{
+  border-color: #181b21;
+}
+.explore_bg{
+  /* background-image: linear-gradient(rgba(13,18,20), #0D1213); */
+  background-color: #0b0e11;
+  /* background: linear-gradient(270deg, rgba(13, 18, 20, 0.82) 12.02%, rgba(13, 18, 20, 0.00) 69.05%),
+            linear-gradient(180deg, rgba(13, 18, 19, 0.00) 42.35%, #0D1213 90.21%,), 
+            url("/assets/images/automative_background.png"), lightgray -5.703px 0.996px / 99.961% 100.851% no-repeat; */
+}
+.centered {
+  padding-left:50px !important ;
+}
+.ReportTable .p-datatable table{
+  border : 1px solid #E5E7EB;
+}
+.companyTable.p-datatable .p-datatable-tbody>tr>td{
+  font-size: 0.729vw;
+  color: #424242;
+  font-weight: 400;
+  padding: 0.729vw 1.042vw;
+}
+.tableFont {
+  font-weight: 700 !important;
+}
+.tableCust.p-datatable-scrollable .p-datatable-thead>tr>th, .p-datatable-scrollable .p-datatable-tbody>tr>td,.p-datatable-scrollable .p-datatable-tfoot>tr>td {
+  border : 1px solid #E5E7EB !important;
+}
+.tableCust.p-datatable .p-datatable-tbody > tr > td .p-row-toggler:enabled:hover{
+  background:none !important;
+}
+.tableCust.p-datatable .p-datatable-tbody > tr > td .p-row-toggler:focus{
+  box-shadow: none !important;
+}
+.loginInput .p-inputtext{
+  width: 100%;
+}

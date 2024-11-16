@@ -1,0 +1,75 @@
+.cardshadow {
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1);
+}
+
+.automative-wrap { 
+    background: #0C1116 url("/assets/images/automative_background.png"); 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    padding-bottom: 60px; 
+}
+
+.retailhome-wrap { 
+    background: #0C1116 url("/assets/images/landing-banner.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    padding-bottom: 60px; 
+    height: 111vh;
+}
+
+/* dropdown start */
+.customDropdown .p-dropdown {
+    background: #F5F6F7;
+}
+
+.customDropdown .p-inputtext {
+    padding: 0.625vw 0.625vw;
+    font-size: 0.833vw;
+    background: #F5F6F7;
+}
+
+.customDropdown .p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: none;
+    border-color: #4BA5B7;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight{
+    color: #fff !important;
+    background: #4BA5B7 !important;
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover{
+    color: #4B586E !important;
+    background: #DBEFF2 !important;
+}
+
+.customDropdown .p-dropdown .p-dropdown-trigger {
+    background: #F5F6F7;
+    color: #9CA1AB;
+}
+
+.customDropdown .p-dropdown:not(.p-disabled):hover {
+    border-color: #4BA5B7;
+}
+
+.customDropdown .pi-chevron-down:before {
+    font-size: 12px;
+}
+/* dropdown end */
+
+.bannerLogoWrap .bannerLogoAutomotive { overflow: hidden; max-width: 7.552vw; transition:all 0.3s ease-in-out; min-height: 3.542vw; display: flex; align-items: center; }
+.bannerLogoWrap .bannerLogoAutomotive img { min-width: 12.021vw; transition:all 0.5s ease-in-out; }
+.bannerLogoWrap:hover .bannerLogoAutomotive img { min-width: 100%; transition:all 0.5s ease-in-out; }
+
+@media (max-width:1550px) {
+
+    .retailhome-wrap {
+        height: 118vh;
+    }
+}
+@media (max-width:1280px) {
+
+    .customDropdown .p-inputtext {
+        padding: 12px 12px;
+        font-size: 16px;
+    }
+}

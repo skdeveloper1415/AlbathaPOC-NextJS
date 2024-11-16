@@ -1,0 +1,32 @@
+body{
+    background-color: #F0F2F6;
+}
+
+.header-search::placeholder {
+    color: #9CA1AB;
+}
+
+body .react-tabs__tab-list{
+    border-bottom: 0;
+}
+body .react-tabs__tab--selected{
+    background: none;
+    border: 0;
+}
+body .react-tabs__tab:focus:after{
+    display: none;
+}
+
+.new-narrative-slide{
+    animation: bobbingAnim 1s;
+}
+
+@keyframes bobbingAnim {
+    0% {
+     transform: translate(0px, 100px) rotateZ(0.001deg);
+    }
+  
+    100% {
+     transform: translate(0px, 0px) rotateZ(0.001deg);
+    }
+  }
